@@ -1,0 +1,42 @@
+.home-cont{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-main{
+    width: 1182px;
+    height: 522px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-img{
+    width: 649px;
+    height: 522px;
+}
+.home-paly-cont{
+    text-align: end;
+}
+.heading-dice{
+    font-family: Poppins;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 144px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.home-paly-cont-btn{
+    all: unset;
+    background-color: #000;
+    width:  210px;
+    height: 38px;
+    padding: 6px 16px 6px 16px;
+    border-radius: 5px;
+    gap: 10px;
+    text-align: center;
+    color: #fff;
+}

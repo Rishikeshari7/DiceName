@@ -1,0 +1,103 @@
+.nav{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1280px;
+    height: 151px;
+    
+}
+
+.dash-wrapper{
+    /* height: 100vh; */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+.ttl-cont{
+    width: 135px;
+    height: 151px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.ttl-val{
+    font-family: Poppins;
+    font-size: 90px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    padding: 0%;
+    margin: 0%;
+    height: 125px;
+}
+.ttl-src{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;    
+}
+.box-cont{
+    width: 552px;
+    height:138px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+.dash-main{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    /* align-items: center;
+    transform-style: preserve-3d; */
+    animation: mni 2s ;
+}
+@keyframes mni {
+    0%{
+        /* transform: scale(0); */
+        transform: rotateY(-70deg);
+    }    
+    /*  */
+    100%{
+        /* transform: scale(1); */
+        transform: rotateY(0deg);
+    }
+}
+.dice-img{
+    width: 250px;
+    height: 250px;   
+}
+.dice-p{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.dice-btn{
+    width: 220px;
+    height: 44px;
+    padding: 10px 18px 10px 18px;
+    border-radius: 5px;
+    border: 1px;
+}
+.dice-btn:hover{
+    border: 2px solid black;
+}
+.show-rule{
+    color: #fff;
+    background-color: #000;
+}
+.show-rule:hover{
+    background-color: #fff;
+    color: #000;   
+}
+.navlink-btn{
+    all: unset;
+    color: #000;
+    font-weight: 500;
+}

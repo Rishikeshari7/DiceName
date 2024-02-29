@@ -1,0 +1,20 @@
+.numsel-cont{
+    display: flex;
+    gap: 30px;
+}
+.box{
+    width: 72px ;
+    height: 72px ;
+    padding: 18px 0px 18px 0px ;
+    border: 1px solid black;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;   
+}
+.newbox{
+    background-color: #000;
+    color: #fff;
+}
